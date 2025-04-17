@@ -15,23 +15,25 @@ The Crypto Price Tracker is a Python-based program that allows users to track cr
 - **User Coin Selection**: Save, add, or remove cryptocurrencies to/from the list of tracked coins.
 - **Persistent Storage**: The list of user-selected coins is saved in a `coins.json` file for future use.
 
-## Installation
+## Requirements
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/crypto-price-tracker.git
-    cd crypto-price-tracker
-    ```
+Python 3.6 or higher
+requests library
+beautifulsoup4 library
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Dependencies
 
-## Usage
+requests: To make HTTP requests to CoinMarketCap and CoinRanking websites.
+beautifulsoup4: To parse HTML data and extract the cryptocurrency prices.
+json: To read/write user coin data to a file.
+License
 
-Run the `crypto_price_tracker.py` script in your terminal:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-```bash
-python crypto_price_tracker.py
+## Acknowledgments
+
+The prices and rankings are fetched from CoinMarketCap and CoinRanking websites.
+
+
+
 
