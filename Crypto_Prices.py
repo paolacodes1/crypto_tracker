@@ -140,6 +140,16 @@ def top_10():
     for rank, data in top_10_coins.items():
         print(f"{rank}: {data['name']} - {data['price']}")
 
+    while True:
+        menu_or_refresh = input("\nMenu or Refresh? (m/r): ").lower()
+        if menu_or_refresh == 'r':
+            top_50()  # Call top_50 again to refresh
+            break
+        elif menu_or_refresh == 'm':
+            break
+        else:
+            print("Invalid choice. Please enter 'm' for Menu or 'r' for Refresh.")
+
 # Top 50
 
 def top_50():
