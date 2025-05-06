@@ -8,6 +8,8 @@ The Crypto Price Tracker is a Python-based program that allows users to track cr
 - Saving a list of user-selected cryptocurrencies for future tracking.
 - Adding and removing coins from the list of tracked cryptocurrencies.
 
+The interface was created using AI, with my prompts and source code as reference.
+
 ## Features
 
 - **Track Cryptocurrency Prices**: Get real-time prices for any coin by entering its name.
