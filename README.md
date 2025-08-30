@@ -124,16 +124,28 @@ Rank   Name                 Symbol   Price           24h Change   Market Cap
 The application features both command-line and graphical user interfaces:
 
 ### GUI v2 Interface (Recommended)
-*Screenshots showing the modern CoinGecko API-powered GUI with real-time data, centered dialogs, and professional table formatting.*
+
+#### Welcome Screen
+The modern interface greets users with a comprehensive feature overview and clear instructions.
+
+![Welcome Screen](screenshots/Screenshot%202025-08-30%20at%201.57.40%20PM.png)
+
+#### Top Cryptocurrencies Display
+View real-time data for top cryptocurrencies with perfect column alignment, showing rank, price, 24h changes, and market cap.
+
+![Top Cryptocurrencies](screenshots/Screenshot%202025-08-30%20at%201.57.47%20PM.png)
+
+#### Personal Watchlist
+Manage your personal cryptocurrency watchlist with clean formatting and real-time price updates.
+
+![Personal Watchlist](screenshots/Screenshot%202025-08-30%20at%201.58.11%20PM.png)
 
 **Features shown in screenshots:**
-- 🏠 Welcome screen with feature overview
-- 📊 Top cryptocurrencies display with market data
-- 💰 Personal watchlist management
-- 🔍 Smart coin search functionality
-- 📱 Responsive, user-friendly interface
-
-*Screenshots are stored in the `screenshots/` directory.*
+- 🏠 Welcome screen with feature overview and instructions
+- 📊 Top cryptocurrencies display with professional table formatting
+- 💰 Personal watchlist management with price tracking
+- 🔍 Smart coin search functionality (accessible via buttons)
+- 📱 Responsive, user-friendly interface with centered dialogs
 
 ## 📁 Project Structure
 
