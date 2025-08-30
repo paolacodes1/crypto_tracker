@@ -8,7 +8,8 @@ Choose your preferred version:
 
 - **v1 (Web Scraping)**: `python3 src/Crypto_Prices.py`
 - **v2 (CoinGecko API)**: `python3 src/Crypto_Prices_v2.py`
-- **GUI Version**: `python3 dashboard/Crypto_Prices_Interface_v1.py`
+- **GUI v1**: `python3 dashboard/Crypto_Prices_Interface_v1.py`
+- **GUI v2** ⭐ **Recommended**: `python3 dashboard/Crypto_Prices_Interface_v2.py`
 
 ## 📋 Versions
 
@@ -35,6 +36,20 @@ Modern approach using the CoinGecko API for reliable data.
 
 **Pros:** Fast, reliable, rich data  
 **Cons:** API rate limits (50 calls/minute)
+
+### GUI v2 - Modern Interface ⭐ **Recommended**
+Combines the CoinGecko API with an enhanced graphical interface.
+
+**Features:**
+- Modern, responsive GUI with professional styling
+- Centered dialog boxes for better user experience
+- Perfect column alignment in data tables
+- Real-time price updates with 24h changes
+- Enhanced error handling and user feedback
+- Smooth integration with v2 API functionality
+
+**Pros:** Best user experience, reliable data, modern design  
+**Cons:** Requires GUI environment
 
 ## 📊 Features
 
@@ -88,6 +103,10 @@ python3 src/Crypto_Prices.py
 
 ### GUI Interface
 ```bash
+# GUI v2 (recommended) - CoinGecko API with modern interface
+python3 dashboard/Crypto_Prices_Interface_v2.py
+
+# GUI v1 - Web scraping version
 python3 dashboard/Crypto_Prices_Interface_v1.py
 ```
 
@@ -95,10 +114,26 @@ python3 dashboard/Crypto_Prices_Interface_v1.py
 ```
 Rank   Name                 Symbol   Price           24h Change   Market Cap     
 -------------------------------------------------------------------------------------
-1      Bitcoin              BTC      $43,250.50      +2.45%       $845.2B        
-2      Ethereum             ETH      $3,125.75       -1.20%       $375.8B        
-3      XRP                  XRP      $2.15           +5.80%       $122.4B        
+1      Bitcoin              BTC      $108,354.00     -2.59%       $2.2T        
+2      Ethereum             ETH      $4,395.84       +1.75%       $530.7B        
+3      XRP                  XRP      $2.83           +2.81%       $168.3B        
 ```
+
+## 📸 Screenshots
+
+The application features both command-line and graphical user interfaces:
+
+### GUI v2 Interface (Recommended)
+*Screenshots showing the modern CoinGecko API-powered GUI with real-time data, centered dialogs, and professional table formatting.*
+
+**Features shown in screenshots:**
+- 🏠 Welcome screen with feature overview
+- 📊 Top cryptocurrencies display with market data
+- 💰 Personal watchlist management
+- 🔍 Smart coin search functionality
+- 📱 Responsive, user-friendly interface
+
+*Screenshots are stored in the `screenshots/` directory.*
 
 ## 📁 Project Structure
 
@@ -108,7 +143,9 @@ crypto_tracker_git/
 │   ├── Crypto_Prices.py      # v1 - Web scraping version
 │   └── Crypto_Prices_v2.py   # v2 - CoinGecko API version
 ├── dashboard/
-│   └── Crypto_Prices_Interface_v1.py  # GUI version
+│   ├── Crypto_Prices_Interface_v1.py  # GUI v1 - Web scraping
+│   └── Crypto_Prices_Interface_v2.py  # GUI v2 - CoinGecko API (recommended)
+├── screenshots/              # Application screenshots
 ├── coins.json                # v1 saved coins
 ├── coins_v2.json            # v2 saved coins
 ├── README.md

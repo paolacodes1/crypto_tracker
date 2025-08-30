@@ -10,7 +10,7 @@ class CoinGeckoAPI:
     def __init__(self):
         self.base_url = "https://api.coingecko.com/api/v3"
         self.session = requests.Session()
-        self.rate_limit_delay = 1.2  # CoinGecko free tier: 50 calls/minute
+        self.rate_limit_delay = 2.0  # CoinGecko free tier: 50 calls/minute (increased for safety)
         
     def _make_request(self, endpoint: str, params: Optional[Dict] = None) -> Optional[Dict]:
         """Make API request with rate limiting and error handling"""
