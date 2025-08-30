@@ -128,17 +128,17 @@ The application features both command-line and graphical user interfaces:
 #### Welcome Screen
 The modern interface greets users with a comprehensive feature overview and clear instructions.
 
-![Welcome Screen](screenshots/Screenshot%202025-08-30%20at%201.57.40%20PM.png)
+![Welcome Screen](screenshots/welcome-screen.png)
 
 #### Top Cryptocurrencies Display
 View real-time data for top cryptocurrencies with perfect column alignment, showing rank, price, 24h changes, and market cap.
 
-![Top Cryptocurrencies](screenshots/Screenshot%202025-08-30%20at%201.57.47%20PM.png)
+![Top Cryptocurrencies](screenshots/top-cryptocurrencies.png)
 
 #### Personal Watchlist
 Manage your personal cryptocurrency watchlist with clean formatting and real-time price updates.
 
-![Personal Watchlist](screenshots/Screenshot%202025-08-30%20at%201.58.11%20PM.png)
+![Personal Watchlist](screenshots/personal-watchlist.png)
 
 **Features shown in screenshots:**
 - 🏠 Welcome screen with feature overview and instructions
